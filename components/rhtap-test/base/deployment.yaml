@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rhtap-test
     spec:
       containers:
-      - image: java-springboot-image:latest
+      - image: quay.io/redhat-user-workloads-stage/alroy-tenant/rhtap-test/rhtap-test@sha256:b04a2159a4a4eac8443bfd4b97587252769094a71a73744e25041917d2cc8a2a
         name: my-java-springboot
         ports:
         - containerPort: 8081
