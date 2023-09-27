@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads-stage/alroy-tenant/rhtap-test/rhtap-test@sha256:67ac229d3afa528d0b29296db3895cda1b51e105ec938e7ecca3f7af9393f9cf
+      - image: quay.io/redhat-user-workloads-stage/alroy-tenant/rhtap-test/rhtap-test@sha256:b04a2159a4a4eac8443bfd4b97587252769094a71a73744e25041917d2cc8a2a
         name: my-java-springboot
         resources: {}
 status: {}
